@@ -84,8 +84,8 @@
           <!-- for the Jacobian if you slected "User Defined" for the option -->
           <!-- "Preconditioner" above.                                       -->
 	  
-	        <Parameter name="User Defined Preconditioner" type="string" value="FROSch"/>
-	        <ParameterList name="FROSch Preconditioner">
+	  <Parameter name="User Defined Preconditioner" type="string" value="FROSch"/>
+	  <ParameterList name="FROSch Preconditioner">
             <Parameter name="FROSch Preconditioner Type" type="string" value="OneLevelPreconditioner"/>
             <Parameter name="OverlappingOperator Type" type="string" value="AlgebraicOverlappingOperator"/>
             <Parameter name="Output Level" type="int" value="2"/>
