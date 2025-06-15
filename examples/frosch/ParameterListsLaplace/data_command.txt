@@ -1,0 +1,27 @@
+#!/bin/bash
+awk '/^--O=/{printf "%s ", $0; next} NF {sum=0; for(i=1;i<=NF;i++) sum+=$i; print "Average:", sum/NF}' Data.txt > Average_Data.txt
+
+
+awk '
+/^[A-Za-z]/ {  # Match section headers like "TwoLevelPreconditioner_IPOUHarmonic_RGDSW"
+    if (NR > 1) {
+        print min_label, "Minimum Average:", min
+        print ""
+    }
+    print $0
+    min = ""; min_label = ""
+}
+/^--O=/ {
+    split($0, parts, ": ")
+    avg = parts[2]
+    label = parts[1]
+    if (min == "" || avg < min) {
+        min = avg
+        min_label = label
+    }
+}
+END {
+    print min_label, "Minimum Average:", min
+}
+' Average_Data.txt > Average_result.txt
+

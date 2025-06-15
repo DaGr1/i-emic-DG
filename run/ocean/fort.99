@@ -1,0 +1,1552 @@
+ ============GRID===========
+ configuration:[ 300.0  325.0] x [  35.0   60.0]
+ resolution:      10x      10x      16
+ stretching parameter   1.000    
+ ============GRID===========
+MIX| init...              
+MIX|     flag:           1
+MIX|   part...            
+MIX|     idim:      144256
+MIX|     dnsm:    1.57E-03
+MIX|     minrow:         0
+MIX|     maxrow:        54
+MIX|     mingrp:        54
+MIX|     maxgrp:        54
+MIX|          ...part done
+MIX|          ...init done     0.044
+ ===========FORCING============
+ ===========FORCING============
+ ===========FORCING============
+ ===========FORCING============
+ ===========FORCING============
+ ===========FORCING============
+ ===========FORCING============
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| init...              
+MIX|     flag:           1
+MIX|   part...            
+MIX|     idim:      144256
+MIX|     dnsm:    1.57E-03
+MIX|     minrow:         0
+MIX|     maxrow:        54
+MIX|     mingrp:        54
+MIX|     maxgrp:        54
+MIX|          ...part done
+MIX|          ...init done     0.030
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.016
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.015
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.018
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000
+ ===========FORCING============
+        MIX| matrix...    
+MIX|     fix:            1
+MIX|     flag:           1
+MIX|     temp:           1
+MIX|     salt:           1
+MIX|        ...matrix done     0.017
+ ===========FORCING============
+MIX| rhs...               
+MIX|     fix:            1
+MIX|     temp:           1
+MIX|     salt:           1
+       MIX|    ...rhs done     0.000

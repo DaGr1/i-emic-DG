@@ -10,7 +10,7 @@
 #include "FROSch_SchwarzPreconditioners_fwd.hpp"
 #include "FROSch_OneLevelPreconditioner_def.hpp"
 #include "FROSch_TwoLevelPreconditioner_def.hpp"
-
+#include "Xpetra_EpetraMultiVector.hpp"
 // conversion tools for Epetra->Xpetra
 #include "Xpetra_EpetraMap.hpp"
 #include "Xpetra_EpetraCrsMatrix.hpp"
@@ -54,17 +54,62 @@ namespace TRIOS
   int FROSchPreconditioner::SetParameters(Teuchos::ParameterList& paramList)
   {
     pList_.setParameters(paramList);
+    pList_.print(std::cout);
     return 0;
   }
 
     int FROSchPreconditioner::Apply(const Epetra_MultiVector& X, Epetra_MultiVector& Y) const
     {
-      return -99;
+      //Teuchos::RCP<const Xpetra::MultiVector<double, LO, GO, EpetraNode>> xX =
+      //  Xpetra::toXpetra(X);
+      //Teuchos::RCP<Xpetra::MultiVector<double, LO, GO, EpetraNode>> xY =
+      //  Xpetra::toXpetra(Y);
+      // frosch_->apply(*xX, *xY, Teuchos::NO_TRANS, 1.0, 0.0);
+      //return 0;
+
+      //using XpetraMV = Xpetra::EpetraMultiVectorT<GO, EpetraNode>;
+
+      //auto xX = Teuchos::rcp(new XpetraMV(Teuchos::rcpFromRef(X)));
+      //auto xY = Teuchos::rcp(new XpetraMV(Teuchos::rcpFromRef(Y)));
+
+      //frosch_->apply(*xX, *xY, Teuchos::NO_TRANS);  // This applies the inverse preconditioner
+      using XpetraMV = Xpetra::EpetraMultiVectorT<GO, EpetraNode>;
+      Teuchos::RCP<Epetra_MultiVector> epX = Teuchos::rcp(new Epetra_MultiVector(X));
+
+      Teuchos::RCP<Epetra_MultiVector> epY = Teuchos::rcpFromRef(Y);
+
+      Teuchos::RCP<const XpetraMV> xX(new XpetraMV(epX));
+      Teuchos::RCP<XpetraMV> xY(new XpetraMV(epY));
+
+      frosch_->apply(*xX, *xY, Teuchos::NO_TRANS);
+
+      return 0;
     }
 
     int FROSchPreconditioner::ApplyInverse(const Epetra_MultiVector& X, Epetra_MultiVector& Y) const
     {
-      return -99;
+      //Teuchos::RCP<const Xpetra::MultiVector<double, LO, GO, EpetraNode>> xX =
+      //  Xpetra::toXpetra(X);
+      //Teuchos::RCP<Xpetra::MultiVector<double, LO, GO, EpetraNode>> xY =
+      //  Xpetra::toXpetra(Y);
+      //frosch_->apply(*xX, *xY, Teuchos::NO_TRANS, 1.0, 0.0);
+      //return 0;
+      //using XpetraMV = Xpetra::EpetraMultiVectorT<GO, EpetraNode>;
+
+      //auto xX = Teuchos::rcp(new XpetraMV(Teuchos::rcpFromRef(X)));
+      //auto xY = Teuchos::rcp(new XpetraMV(Teuchos::rcpFromRef(Y)));
+
+      //frosch_->apply(*xX, *xY, Teuchos::NO_TRANS);  // This applies the inverse preconditioner
+      using XpetraMV = Xpetra::EpetraMultiVectorT<GO, EpetraNode>;
+      Teuchos::RCP<Epetra_MultiVector> epX = Teuchos::rcp(const_cast<Epetra_MultiVector*>(&X),false);
+      
+      Teuchos::RCP<Epetra_MultiVector> epY = Teuchos::rcpFromRef(Y);
+
+      Teuchos::RCP<const XpetraMV> xX(new XpetraMV(epX));
+      Teuchos::RCP<XpetraMV> xY(new XpetraMV(epY));
+
+      frosch_->apply(*xX, *xY, Teuchos::NO_TRANS);
+      return 0;
     }
 
     int FROSchPreconditioner::Initialize()
@@ -74,7 +119,7 @@ namespace TRIOS
       // we could create a map that has only one velocity node
       // of overlap. This would require some manual construction,
       // though, whereas the assembly map is already available.
-      int overlap = 2;
+      int overlap = 10;
       Teuchos::RCP<const Xpetra_Map> repeatedMap =
         Teuchos::rcp(new Xpetra_EpetraMap(domain_->GetAssemblyMap()));
       return frosch_->initialize(overlap, repeatedMap);

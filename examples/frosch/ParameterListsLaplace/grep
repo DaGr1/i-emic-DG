@@ -1,0 +1,257 @@
+###################
+# Assembly Block 0 #
+###################
+
+##############################
+# Assembly Monolithic System #
+##############################
+
+##################
+# Parameter List #
+##################
+Linear Solver Type = Belos   [unused]
+Preconditioner Type = FROSch   [unused]
+Linear Solver Types -> 
+ Belos -> 
+  Solver Type = Block GMRES   [unused]
+  Solver Types -> 
+   Block GMRES -> 
+    PreconditionerPosition = left   [unused]
+    Block Size = 1   [unused]
+    Convergence Tolerance = 0.0001   [unused]
+    Maximum Iterations = 100   [unused]
+    Output Frequency = 1   [unused]
+    Show Maximum Residual Norm Only = 1   [unused]
+Preconditioner Types -> 
+ FROSch -> 
+  FROSch Preconditioner Type = GDSWPreconditioner   [unused]
+  Dimension = 2   [unused]
+  Overlap = 6   [unused]
+  Repeated Map = Teuchos::RCP<Xpetra::Map<int, int, Tpetra::KokkosCompat::KokkosDeviceWrapperNode<Kokkos::Serial, Kokkos::HostSpace> > >{ptr=0x5727237db770,node=0x5727237d57a0,strong_count=2,weak_count=0}   [unused]
+  DofOrdering = NodeWise   [unused]
+  DofsPerNode = 1   [unused]
+  AlgebraicOverlappingOperator -> 
+   Solver -> 
+    SolverType = Amesos2   [unused]
+    Solver = Klu   [unused]
+  GDSWCoarseOperator -> 
+   Blocks -> 
+    1 -> 
+     Use For Coarse Space = 1   [unused]
+     Rotations = 1   [unused]
+     Custom -> 
+      Vertices: translations = 1   [unused]
+      ShortEdges: translations = 1   [unused]
+      ShortEdges: rotations = 1   [unused]
+      StraightEdges: translations = 1   [unused]
+      StraightEdges: rotations = 1   [unused]
+      Edges: translations = 1   [unused]
+      Edges: rotations = 1   [unused]
+      Faces: translations = 1   [unused]
+      Faces: rotations = 1   [unused]
+   ExtensionSolver -> 
+    SolverType = Amesos2   [unused]
+    Solver = Klu   [unused]
+   Distribution -> 
+    Type = linear   [unused]
+    NumProcs = 1   [unused]
+    Factor = 1   [unused]
+    GatheringSteps = 1   [unused]
+    Gathering Communication -> 
+     Send type = Send   [unused]
+   CoarseSolver -> 
+    SolverType = Amesos2   [unused]
+    Solver = Klu   [unused]
+
+###################################
+# Stratimikos LinearSolverBuilder #
+###################################
+
+######################
+# Thyra PrepForSolve #
+######################
+
+###########################
+# Thyra LinearOpWithSolve #
+###########################
+ 
+ Entering Thyra::BelosLinearOpWithSolveFactory<double>::initializeOpImpl(...) ...
+
+     -----------------------------------------------------------------------------------------
+     | AlgebraicOverlappingOperator                                               (Level  1) |
+     =========================================================================================
+     | Adding layers strategy                    |                                  CrsGraph |
+     | Combine mode in overlap                   |                                Restricted |
+     | Solver type                               |                                   Amesos2 |
+     | Solver                                    |                                       Klu |
+     | Reuse symbolic factorization              |                                         1 |
+     -----------------------------------------------------------------------------------------
+
+     -----------------------------------------------------------------------------------------
+     | > Overlapping Subdomains Statistics                                        (Level  1) |
+     =========================================================================================
+     |                      |      total |        avg |        min |        max | global sum |
+     -----------------------------------------------------------------------------------------
+     | Layer 0              |     160000 |      40200 |      40000 |      40400 |     160800 |
+     | Layer 1              |     160000 |      40601 |      40400 |      40801 |     162403 |
+     | Layer 2              |     160000 |      41002 |      40801 |      41203 |     164010 |
+     | Layer 3              |     160000 |      41405 |      41203 |      41606 |     165621 |
+     | Layer 4              |     160000 |      41809 |      41606 |      42010 |     167236 |
+     | Layer 5              |     160000 |      42214 |      42010 |      42415 |     168855 |
+     | Layer 6              |     160000 |      42620 |      42415 |      42821 |     170478 |
+     -----------------------------------------------------------------------------------------
+
+     -----------------------------------------------------------------------------------------
+     | GDSWCoarseOperator                                                         (Level  1) |
+     =========================================================================================
+     | Block                                     |                                         0 |
+     | Spatial dimensions                        |                                         2 |
+     | Number of degrees of freedom per node     |                                         1 |
+     -----------------------------------------------------------------------------------------
+
+     -----------------------------------------------------------------------------------------
+     | > Interface Statistics                                                     (Level  1) |
+     =========================================================================================
+     | Interface communication strategy          |                                         2 |
+     -----------------------------------------------------------------------------------------
+     |                      |      total |        avg |        min |        max | global sum |
+     -----------------------------------------------------------------------------------------
+     | Vertices             |          1 |       0.75 |          0 |          1 |          3 |
+     | Short edges          |          0 |          0 |          0 |          0 |          0 |
+     | Straight edges       |          0 |          0 |          0 |          0 |          0 |
+     | Edges                |          0 |          0 |          0 |          0 |          0 |
+     | Faces                |          4 |          2 |          2 |          2 |          8 |
+     | Roots                |            |            |            |            |            |
+     | Leafs                |            |            |            |            |            |
+     -----------------------------------------------------------------------------------------
+     [NOTIFICATION] FROSch::CoarseSpace: We re-build a unique map of AssembledBasisMap_.
+
+     -----------------------------------------------------------------------------------------
+     | > GDSW coarse space                                                        (Level  1) |
+     =========================================================================================
+     | Vertices            | Translations        |                                      true |
+     | ShortEdges          | Translations        |                                      true |
+     | ShortEdges          | Rotations           |                                     false |
+     | StraightEdges       | Translations        |                                      true |
+     | StraightEdges       | Rotations           |                                     false |
+     | Edges               | Translations        |                                      true |
+     | Edges               | Rotations           |                                     false |
+     | Faces               | Translations        |                                      true |
+     | Faces               | Rotations           |                                     false |
+     -----------------------------------------------------------------------------------------
+
+     -----------------------------------------------------------------------------------------
+     | > Gathering Steps Statistics                                               (Level  1) |
+     =========================================================================================
+     |         |      ranks |      total |        avg |        min |        max | global sum |
+     -----------------------------------------------------------------------------------------
+     | Map 0   |          4 |          5 |       1.25 |          0 |          2 |          5 |
+     | Map 1   |          1 |          5 |          5 |          5 |          5 |          5 |
+     -----------------------------------------------------------------------------------------
+
+     -----------------------------------------------------------------------------------------
+     | > Local Linear Dependencies of Coarse Basis Functions Statistics           (Level  1) |
+     =========================================================================================
+     |                      |      total |        avg |        min |        max | global sum |
+     -----------------------------------------------------------------------------------------
+     | Basis functions      |          5 |       2.75 |          2 |          3 |         11 |
+     | Dependent            |            |          0 |          0 |          0 |          0 |
+     | Independent          |            |       2.75 |          2 |          3 |         11 |
+     -----------------------------------------------------------------------------------------
+
+     -----------------------------------------------------------------------------------------
+     | > Extensions solver                                                        (Level  1) |
+     =========================================================================================
+     | Solver type                               |                                   Amesos2 |
+     | Solver                                    |                                       Klu |
+     -----------------------------------------------------------------------------------------
+
+     -----------------------------------------------------------------------------------------
+     | > Coarse Problem Statistics (Coarse Communicator)                          (Level  1) |
+     =========================================================================================
+     | Number of ranks on the coarse comm        |                                         1 |
+     | Solver type                               |                                   Amesos2 |
+     | Solver                                    |                                       Klu |
+     | Reuse symbolic factorization              |                                         1 |
+     | Reuse coarse basis                        |                                         1 |
+     | Reuse coarse matrix                       |                                         0 |
+     -----------------------------------------------------------------------------------------
+     |                      |      total |        avg |        min |        max | global sum |
+     -----------------------------------------------------------------------------------------
+     | Number of rows       |          5 |          5 |          5 |          5 |          5 |
+     | Entries              |         21 |         21 |         21 |         21 |         21 |
+     | Avg entries per row  |          4 |          4 |          4 |          4 |          4 |
+     | Max entries per row  |            |          5 |          5 |          5 |            |
+     | Unit diagonals added |          0 |          0 |          0 |          0 |          0 |
+     -----------------------------------------------------------------------------------------
+ 
+ Leaving Thyra::BelosLinearOpWithSolveFactory<double>::initializeOpImpl(...) ...
+
+#########
+# Solve #
+#########
+ 
+ Starting iterations with Belos:
+  Using forward operator = Thyra::TpetraLinearOp<double, int, int, Tpetra::KokkosCompat::KokkosDeviceWrapperNode<Kokkos::Serial, Kokkos::HostSpace> >{rangeDim=160000,domainDim=160000}
+  Using iterative solver = "Belos::BlockGmresSolMgr":
+    Template parameters:
+     ScalarType: double
+     MV: Thyra::MultiVectorBase<double>
+     OP: Thyra::LinearOpBase<double>
+    Flexible: false
+    Num Blocks: 300
+    Maximum Iterations: 100
+    Maximum Restarts: 20
+    Convergence Tolerance: 0.0001
+  With #Eqns=160000, #RHSs=1 ...
+ 
+ The Belos solver of type ""Belos::BlockGmresSolMgr": {Flexible: false, Num Blocks: 300, Maximum Iterations: 100, Maximum Restarts: 20, Convergence Tolerance: 0.0001}" returned a solve status of "SOLVE_STATUS_CONVERGED" in 15 iterations with total CPU time of 2.12776 sec
+
+#############
+# Finished! #
+#############
+*** Teuchos::StackedTimer::report() - Remainder for a level will be ***
+*** incorrect if a timer in the level does not exist on every rank  ***
+*** of the MPI Communicator.                                        ***
+Thyra Laplace Test: 8.52534 [1] {min=8.52533, max=8.52534, std dev=2.2408e-06} <1, 2, 0, 0, 0, 0, 0, 0, 0, 1>
+|   Galeri: Laplace 2D Generation: 0.0935329 - 1.09712% [1] {min=0.0856028, max=0.104793, std dev=0.00811332} <1, 0, 1, 1, 0, 0, 0, 0, 0, 1>
+|   Galeri: Laplace 2D FillComplete: 0.0871642 - 1.02241% [1] {min=0.0759051, max=0.0950909, std dev=0.00811206} <1, 0, 0, 0, 0, 0, 1, 1, 0, 1>
+|   FROSch: GDSWPreconditioner::initialize (Level 1): 3.37558 - 39.5947% [1] {min=3.36043, max=3.41076, std dev=0.0238147} <2, 1, 0, 0, 0, 0, 0, 0, 0, 1>
+|   |   FROSch: AlgebraicOverlappingOperator::initialize (Level 1): 2.68349 - 79.4972% [1] {min=2.66608, max=2.71417, std dev=0.0210802} <1, 0, 2, 0, 0, 0, 0, 0, 0, 1>
+|   |   FROSch: GDSWCoarseOperator::initialize (Level 1): 0.654801 - 19.3982% [1] {min=0.639651, max=0.689989, std dev=0.0238148} <2, 1, 0, 0, 0, 0, 0, 0, 0, 1>
+|   |   Remainder: 0.0372879 - 1.10464%
+|   FROSch: GDSWPreconditioner::compute (Level 1): 1.83518 - 21.5261% [1] {min=1.79982, max=1.85083, std dev=0.023957} <1, 0, 0, 0, 0, 0, 0, 0, 1, 2>
+|   |   FROSch: AlgebraicOverlappingOperator::compute (Level 1): 0.853322 - 46.4981% [1] {min=0.834176, max=0.874709, std dev=0.0166814} <1, 0, 0, 1, 1, 0, 0, 0, 0, 1>
+|   |   FROSch: CoarseOperator::compute (Level 1): 0.981832 - 53.5007% [1] {min=0.925095, max=1.01489, std dev=0.0395354} <1, 0, 0, 0, 0, 0, 1, 0, 1, 1>
+|   |   Remainder: 2.17717e-05 - 0.00118636%
+|   Stratimikos: BelosLOWS: 2.1279 - 24.9598% [1] {min=2.12785, max=2.12797, std dev=5.32583e-05} <1, 1, 0, 0, 0, 0, 1, 0, 0, 1>
+|   |   Belos: Operation Op*x: 0.000836006 - 0.0392878% [1] {min=0.000816282, max=0.000894095, std dev=3.87269e-05} <3, 0, 0, 0, 0, 0, 0, 0, 0, 1>
+|   |   Belos::MVT::MvAddMv: 0.000765783 - 0.0359877% [1] {min=0.00073652, max=0.000839098, std dev=4.89954e-05} <3, 0, 0, 0, 0, 0, 0, 0, 0, 1>
+|   |   Belos: BlockGmresSolMgr total solve time: 2.12499 - 99.8631% [1] {min=2.1249, max=2.12506, std dev=6.64893e-05} <1, 0, 0, 0, 1, 0, 0, 1, 0, 1>
+|   |   |   Belos: ICGS[2]: Orthogonalization: 1.25331 - 58.9796% [16] {min=1.21163, max=1.32374, std dev=0.0487159} <1, 0, 2, 0, 0, 0, 0, 0, 0, 1>
+|   |   |   |   Belos: ICGS[2]: Ortho (Norm): 0.65913 - 52.5912% [16] {min=0.535903, max=0.733916, std dev=0.0888997} <1, 0, 0, 0, 0, 1, 0, 0, 1, 1>
+|   |   |   |   |   Belos::MVT::MvDot: 0.659086 - 99.9933% [16] {min=0.535856, max=0.733874, std dev=0.0889013} <1, 0, 0, 0, 0, 1, 0, 0, 1, 1>
+|   |   |   |   |   Remainder: 4.44865e-05 - 0.00674927%
+|   |   |   |   Belos::MVT::MvScale: 0.0140021 - 1.11721% [16] {min=0.0119931, max=0.0197328, std dev=0.00382165} <3, 0, 0, 0, 0, 0, 0, 0, 0, 1>
+|   |   |   |   Belos: ICGS[2]: Ortho (Inner Product): 0.32845 - 26.2066% [30] {min=0.227591, max=0.403446, std dev=0.0884135} <1, 0, 0, 1, 0, 0, 0, 0, 0, 2>
+|   |   |   |   |   Belos::MVT::MvTransMv: 0.328303 - 99.9553% [30] {min=0.22745, max=0.403311, std dev=0.0884179} <1, 0, 0, 1, 0, 0, 0, 0, 0, 2>
+|   |   |   |   |   Remainder: 0.000146727 - 0.0446726%
+|   |   |   |   Belos: ICGS[2]: Ortho (Update): 0.250961 - 20.0239% [30] {min=0.100008, max=0.411147, std dev=0.152492} <1, 1, 0, 0, 0, 0, 0, 0, 1, 1>
+|   |   |   |   |   Belos::MVT::MvTimesMatAddMv: 0.25087 - 99.9636% [30] {min=0.0999199, max=0.41105, std dev=0.152491} <1, 1, 0, 0, 0, 0, 0, 0, 1, 1>
+|   |   |   |   |   Remainder: 9.13635e-05 - 0.0364054%
+|   |   |   |   Remainder: 0.000765751 - 0.0610983%
+|   |   |   Belos::MVT::MvAddMv: 0.00407703 - 0.191861% [4] {min=0.00401075, max=0.00416345, std dev=7.17062e-05} <2, 0, 0, 0, 0, 0, 1, 0, 0, 1>
+|   |   |   Belos::MVT::MvNorm: 0.0165181 - 0.777325% [2] {min=0.00187401, max=0.0374402, std dev=0.0149654} <1, 0, 0, 2, 0, 0, 0, 0, 0, 1>
+|   |   |   Belos: Operation Prec*x: 0.7514 - 35.3602% [16] {min=0.689725, max=0.836173, std dev=0.0722144} <2, 0, 0, 0, 0, 0, 1, 0, 0, 1>
+|   |   |   |   FROSch: AlgebraicOverlappingPreconditioner::apply (Level 1): 0.751141 - 99.9656% [16] {min=0.689463, max=0.835912, std dev=0.0722157} <2, 0, 0, 0, 0, 0, 1, 0, 0, 1>
+|   |   |   |   |   FROSch: SumOperator::apply (Level 1): 0.751092 - 99.9934% [16] {min=0.689415, max=0.835861, std dev=0.0722137} <2, 0, 0, 0, 0, 0, 1, 0, 0, 1>
+|   |   |   |   |   |   FROSch: OverlappingOperator::apply (Level 1): 0.605057 - 80.557% [16] {min=0.534609, max=0.679535, std dev=0.0658369} <1, 0, 1, 0, 0, 0, 0, 1, 0, 1>
+|   |   |   |   |   |   FROSch: CoarseOperator::apply (Level 1): 0.144757 - 19.2728% [16] {min=0.105677, max=0.196253, std dev=0.0404816} <1, 1, 0, 0, 0, 1, 0, 0, 0, 1>
+|   |   |   |   |   |   Remainder: 0.00127798 - 0.170149%
+|   |   |   |   |   Remainder: 4.95547e-05 - 0.00659726%
+|   |   |   |   Remainder: 0.000258374 - 0.0343858%
+|   |   |   Belos: Operation Op*x: 0.089587 - 4.21588% [16] {min=0.0180464, max=0.144591, std dev=0.0525379} <1, 0, 0, 0, 0, 0, 2, 0, 0, 1>
+|   |   |   Belos::MVT::MvTimesMatAddMv: 0.00569925 - 0.268202% [1] {min=0.0003114, max=0.00795117, std dev=0.00364671} <1, 0, 0, 0, 0, 0, 0, 0, 1, 2>
+|   |   |   Remainder: 0.0043987 - 0.206999%
+|   |   Remainder: 0.00131201 - 0.0616575%
+|   Remainder: 1.00598 - 11.7999%

@@ -1,0 +1,110 @@
+RGDSWPreconditioner
+[10.0511,8.19037,7.64327,7.51122,7.43337,7.5544,7.64284,7.85865,8.06514,8.16609,8.55362]
+
+GDSWPreconditioner
+--O=0 Average: 9.8814
+--O=1 Average: 8.14771
+--O=2 Average: 7.8717
+--O=3 Average: 7.48255
+--O=4 Average: 7.59703
+--O=5 Average: 7.32699
+--O=6 Average: 7.77155
+--O=7 Average: 7.80361
+--O=8 Average: 7.91982
+--O=9 Average: 8.25299
+--O=10 Average: 8.35978
+
+TwoLevelBlockPreconditioner
+
+Error and could not run
+
+TwoLevelPreconditioner_GDSW_muelu
+--O=0 Average: 9.93802
+--O=1 Average: 8.15126
+--O=2 Average: 7.76555
+--O=3 Average: 7.43531
+--O=4 Average: 7.35634
+--O=5 Average: 7.21872
+--O=6 Average: 7.50534
+--O=7 Average: 7.82295
+--O=8 Average: 7.9884
+--O=9 Average: 8.34421
+--O=10 Average: 8.31358
+
+TwoLevelPreconditioner_GDSW
+--O=0 Average: 9.99928
+--O=1 Average: 8.25684
+--O=2 Average: 7.77345
+--O=3 Average: 7.39361
+--O=4 Average: 7.32329
+--O=5 Average: 7.25239
+--O=6 Average: 7.68439
+--O=7 Average: 7.78159
+--O=8 Average: 7.96853
+--O=9 Average: 8.00279
+--O=10 Average: 8.41215
+
+TwoLevelPreconditioner_IPOUHarmonic_GDSW_ML
+--O=0 Average: 10.5597
+--O=1 Average: 8.75018
+--O=2 Average: 8.17885
+--O=3 Average: 7.98828
+--O=4 Average: 8.06994
+--O=5 Average: 8.05678
+--O=6 Average: 8.15986
+--O=7 Average: 8.40287
+--O=8 Average: 8.65732
+--O=9 Average: 8.85898
+--O=10 Average: 8.99916
+
+TwoLevelPreconditioner_IPOUHarmonic_GDSStar
+--O=0 Average: 10.3913
+--O=1 Average: 8.54711
+--O=2 Average: 7.97154
+--O=3 Average: 7.77767
+--O=4 Average: 7.66218
+--O=5 Average: 7.70715
+--O=6 Average: 8.05773
+--O=7 Average: 8.15383
+--O=8 Average: 8.33571
+--O=9 Average: 8.46805
+--O=10 Average: 8.74923
+
+TwoLevelPreconditioner_IPOUHarmonic_GDSW
+--O=0 Average: 10.1541
+--O=1 Average: 8.49527
+--O=2 Average: 8.12159
+--O=3 Average: 7.7341
+--O=4 Average: 7.66093
+--O=5 Average: 7.73737
+--O=6 Average: 8.13231
+--O=7 Average: 8.25875
+--O=8 Average: 8.38865
+--O=9 Average: 8.4063
+--O=10 Average: 8.8021
+
+TwoLevelPreconditioner_IPOUHarmonic_RGDSW
+--O=0 Average: 10.4456
+--O=1 Average: 8.6579
+--O=2 Average: 7.96506
+--O=3 Average: 7.78421
+--O=4 Average: 7.81401
+--O=5 Average: 7.91777
+--O=6 Average: 8.09775
+--O=7 Average: 8.02359
+--O=8 Average: 8.35011
+--O=9 Average: 8.53764
+--O=10 Average: 8.8216
+
+ParameterList_TwoLevelPreconditioner_RGDSW.xml
+--O=0 Average: 9.85618
+--O=1 Average: 8.05918
+--O=2 Average: 7.5395
+--O=3 Average: 7.37069
+--O=4 Average: 7.17942
+--O=5 Average: 7.37997
+--O=6 Average: 7.50889
+--O=7 Average: 7.73518
+--O=8 Average: 7.83979
+--O=9 Average: 8.12367
+--O=10 Average: 8.50525

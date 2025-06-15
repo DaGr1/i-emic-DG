@@ -1,0 +1,29 @@
+RGDSWPreconditioner
+--O=4 Average Minimum Average: 7.43337
+
+GDSWPreconditioner
+--O=5 Average Minimum Average: 7.32699
+
+TwoLevelBlockPreconditioner
+Error and could not run
+
+TwoLevelPreconditioner_GDSW_muelu
+--O=5 Average Minimum Average: 7.21872
+
+TwoLevelPreconditioner_GDSW
+--O=5 Average Minimum Average: 7.25239
+
+TwoLevelPreconditioner_IPOUHarmonic_GDSW_ML
+--O=3 Average Minimum Average: 7.98828
+
+TwoLevelPreconditioner_IPOUHarmonic_GDSStar
+--O=4 Average Minimum Average: 7.66218
+
+TwoLevelPreconditioner_IPOUHarmonic_GDSW
+--O=4 Average Minimum Average: 7.66093
+
+TwoLevelPreconditioner_IPOUHarmonic_RGDSW
+--O=3 Average Minimum Average: 7.78421
+
+ParameterList_TwoLevelPreconditioner_RGDSW.xml
+--O=4 Average Minimum Average: 7.17942

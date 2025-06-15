@@ -1,0 +1,36 @@
+                                                        cumul.         calls   average     
+ (1)    BlockPrec: solve ATS                         :  48.493         8544    0.00567568  
+ (2)    BlockPrec: solve Auv                         :  9.22588        36440   0.00025318  
+ (3)    BlockPrec: solve Chat                        :  28.3012        36440   0.000776651 
+ (4)    BlockPrec: solve depth-av Spp                :  45.9867        8544    0.00538234  
+ (5)    Column integral                              :  0.00116125     1       0.00116125  
+ (6)    Continuation: Newton                         :  135.945        23      5.91066     
+ (7)    Continuation: run                            :  137.765        1       137.765     
+ (8)    Continuation: step                           :  136.458        23      5.93296     
+ (9)    Continuation: step -> postprocess            :  0.107361       23      0.00466788  
+ (10)   Ocean: additionalExports                     :  0.0311147      23      0.00135281  
+ (11)   Ocean: apply matrix...                       :  0.000337539    2       0.00016877  
+ (12)   Ocean: compute Jacobian...                   :  2.46033        65      0.0378512   
+ (13)   Ocean: compute RHS...                        :  1.97412        178     0.0110906   
+ (14)   Ocean: compute jacobian: fortran part        :  1.9843         68      0.0291808   
+ (15)   Ocean: compute preconditioner                :  26.1551        25      1.0462      
+ (16)   Ocean: compute rhs: fortran part             :  1.90003        178     0.0106743   
+ (17)   Ocean: initialize preconditioner             :  0.0165835      2       0.00829173  
+ (18)   Ocean: printLegacyFiles                      :  0.0200077      47      0.000425697 
+ (19)   Ocean: saveStateToFile                       :  0.0970682      23      0.00422035  
+ (20)   Ocean: solve...                              :  106.741        128     0.833918    
+ (21)   Total time...                                :  139.435        1       139.435     
+ (22)   addition rhs                                 :  0.00260348     178     1.46263e-05 
+ (23)   assemble                                     :  0.67539        246     0.00274549  
+ (24)   boundaries                                   :  0.280992       246     0.00114224  
+ (25)   fillcolA                                     :  0.674849       246     0.00274329  
+ (26)   fillcolB                                     :  0.00197832     70      2.82617e-05 
+ (27)   landmask rhs                                 :  0.00421294     178     2.36682e-05 
+ (28)   matAvec                                      :  0.0132728      178     7.45664e-05 
+ (29)   mixing jac                                   :  1.10232        68      0.0162106   
+ (30)   mixing rhs                                   :  0.0440715      178     0.000247593 
+ (31)   nlin_jac                                     :  0.276081       68      0.00406001  
+ (32)   nlin_rhs                                     :  0.334489       178     0.00187915  
+
+ (33)   Continuation: Newton iterations...           :  63             23      2.73913     
+ (34)   Ocean: FGMRES iterations...                  :  8544           128     66.75       

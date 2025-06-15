@@ -1,0 +1,11 @@
+--O=0 Average: 0.0767204
+--O=1 Average: 0.0793025
+--O=2 Average: 0.0837529
+--O=3 Average: 0.0894973
+--O=4 Average: 0.0959737
+--O=5 Average: 0.101959
+--O=6 Average: 0.107721
+--O=7 Average: 0.115669
+--O=8 Average: 0.125858
+--O=9 Average: 0.134183
+--O=10 Average: 0.14422
