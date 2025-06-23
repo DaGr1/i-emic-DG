@@ -24,6 +24,6 @@ for file in *.xml; do
     
         echo >> output.txt
     done
-    cat "$file" >> Data.txt
+    echo "$file" >> Data.txt
     cat output.txt >> Data.txt
 done

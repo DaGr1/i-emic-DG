@@ -36,8 +36,8 @@ SUBROUTINE forcing
   if (iza.eq.2) then        ! idealized wind forcing
      do j=1,m
         do i=1,n
-           taux(i,j) = wfun(yv(j), 1)
-           tauy(i,j) = wfun(yv(j), 2)
+           taux(i,j) = 0.0  ! wfun(yv(j), 1)
+           tauy(i,j) = 0.0  ! wfun(yv(j), 2)
         enddo
      enddo
   endif

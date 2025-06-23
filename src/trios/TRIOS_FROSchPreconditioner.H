@@ -248,7 +248,8 @@ public:
 
     //! Note that this can be either a one- or two-level FROSch preconditioner
     //! as the two-level class is derived from the one-level class.
-    Teuchos::RCP<OneLevelFROSch> frosch_;
+    // Teuchos::RCP<TwoLevelFROSch> frosch_;
+     Teuchos::RCP<OneLevelFROSch> frosch_;
 
 };
 

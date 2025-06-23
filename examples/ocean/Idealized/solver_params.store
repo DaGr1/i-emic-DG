@@ -1,0 +1,84 @@
+<ParameterList name="Trilinos THCM"><!--{-->
+
+  <!-- Nonlinear solver parameters { -->
+  <ParameterList name="NOX">
+
+    <Parameter name="Nonlinear Solver" type="string" value="Line Search Based"/>
+    <Parameter name="Convergence Tolerance" type="double" value="1.0e-6"/>
+
+    <ParameterList name="Line Search">
+      <Parameter name="Method" type="string" value="Backtrack"/>
+      <Parameter name="Max Iters" type="int" value="10"/>
+      <ParameterList name="Backtrack">
+        <Parameter name="Default Step" type="double" value="1.0"/>
+        <Parameter name="Max Iters" type="int" value="10"/>
+        <Parameter name="Minimum Step" type="double" value="1e-6"/>
+        <Parameter name="Recovery Step" type="double" value="1e-3"/>
+      </ParameterList>
+    </ParameterList><!-- } Line Search -->
+
+    <ParameterList name="Direction">
+      <Parameter name="Method" type="string" value="Newton"/>
+      <ParameterList name="Newton">
+
+        <Parameter name="Forcing Term Method" type="string" value="Type 2"/>
+        <Parameter name="Forcing Term Initial Tolerance" type="double" value="1.0e-4"/>
+        <Parameter name="Forcing Term Maximum Tolerance" type="double" value="1.0e-3"/>
+        <Parameter name="Forcing Term Minimum Tolerance" type="double" value="1.0e-6"/>
+        <Parameter name="Rescue Bad Newton Solve" type="bool" value="1"/>
+
+        <ParameterList name="Linear Solver">
+          <Parameter name="Belos Solver" type="string" value="GMRES"/>
+
+          <ParameterList name="Belos">
+            <Parameter name="Flexible Gmres" type="bool" value="1"/>
+            <Parameter name="Block Size" type="int" value="1"/>
+            <Parameter name="Num Blocks" type="int" value="250"/>
+            <Parameter name="Maximum Iterations" type="int" value="250"/>
+            <Parameter name="Maximum Restarts" type="int" value="0"/>
+            <Parameter name="Orthogonalization" type="string" value="DGKS"/>
+            <Parameter name="Output Frequency" type="int" value="1"/>
+          </ParameterList><!-- } Belos -->
+
+          <Parameter name="Preconditioner" type="string" value="User Defined"/>
+          <Parameter name="Preconditioner Reuse Policy" type="string" value="Reuse"/>
+          <Parameter name="Max Age Of Prec" type="int" value="1"/>
+
+          <Parameter name="User Defined Preconditioner" type="string" value="FROSch"/>
+          <ParameterList name="FROSch Preconditioner">
+            <Parameter name="FROSch Preconditioner Type" type="string" value="TwoLevelBlockPreconditioner"/>
+            <Parameter name="Output Level" type="int" value="2"/>
+            <Parameter name="Dimension" type="int" value="3"/>
+            <Parameter name="Overlap" type="int" value="1"/>
+            <Parameter name="Level ID" type="unsigned int" value="1"/>
+            <Parameter name="OverlappingOperator Type" type="string" value="AlgebraicOverlappingOperator"/>
+            
+
+            <ParameterList name="TwoLevelBlockPreconditioner">
+              <Parameter name="UseCoarseSpace" type="bool" value="true"/>
+              <Parameter name="UseBlockCoarseSpace" type="bool" value="true"/>
+
+              <ParameterList name="AlgebraicOverlappingOperator">
+                <Parameter name="Combine Values in Overlap" type="string" value="full"/>
+                <Parameter name="Adding Layers Strategy" type="string" value="CrsMatrix"/>
+                <Parameter name="Level ID" type="unsigned int" value="1"/>
+                <ParameterList name="Solver">
+                  <Parameter name="SolverType" type="string" value="Amesos2"/>
+                  <Parameter name="Solver" type="string" value="Mumps"/>
+                </ParameterList>
+              </ParameterList>
+
+              <ParameterList name="CoarseSolver">
+                <Parameter name="SolverType" type="string" value="Amesos2"/>
+                <Parameter name="Solver" type="string" value="Mumps"/>
+              </ParameterList>
+            </ParameterList>
+          </ParameterList>
+        </ParameterList><!-- } Linear Solver -->
+      </ParameterList><!-- } Newton -->
+    </ParameterList><!-- } Direction -->
+
+  </ParameterList><!-- } NOX -->
+
+</ParameterList> <!-- } Trilinos -->
+

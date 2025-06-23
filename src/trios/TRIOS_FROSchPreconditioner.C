@@ -54,7 +54,7 @@ namespace TRIOS
   int FROSchPreconditioner::SetParameters(Teuchos::ParameterList& paramList)
   {
     pList_.setParameters(paramList);
-    pList_.print(std::cout);
+    //pList_.print(std::cout);
     return 0;
   }
 
@@ -119,7 +119,7 @@ namespace TRIOS
       // we could create a map that has only one velocity node
       // of overlap. This would require some manual construction,
       // though, whereas the assembly map is already available.
-      int overlap = 10;
+      int overlap = 5;
       Teuchos::RCP<const Xpetra_Map> repeatedMap =
         Teuchos::rcp(new Xpetra_EpetraMap(domain_->GetAssemblyMap()));
       return frosch_->initialize(overlap, repeatedMap);
